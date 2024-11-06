@@ -221,7 +221,7 @@ const Header = () => {
                   </li>
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/ecvs"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       ECVS
@@ -229,7 +229,7 @@ const Header = () => {
                   </li>
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/lift-escalators"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Lift & Escalators
