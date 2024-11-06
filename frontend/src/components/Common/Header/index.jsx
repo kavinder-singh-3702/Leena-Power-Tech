@@ -106,7 +106,7 @@ const Header = () => {
                 <ul className="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/about" 
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       About Us
@@ -114,7 +114,7 @@ const Header = () => {
                   </li>
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/directors"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Our Team
@@ -122,7 +122,7 @@ const Header = () => {
                   </li>
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/awards-recognitions"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Awards & Recognizations
