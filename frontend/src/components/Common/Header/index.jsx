@@ -38,23 +38,29 @@ const Header = () => {
           <span>Email: info@lptindia.in</span>
         </div>
       </div>
-      <header class="flex border-b bg-white font-sans min-h-[70px] tracking-wide relative z-50">
-        <div class="flex flex-wrap items-center justify-between px-10 py-10 gap-4 w-full">
-          <a href="javascript:void(0)">
-            <Image width={264} height={20} src="" alt="logo" class="w-36" />
-          </a>
+      <header className="flex border-b bg-white font-sans min-h-[70px] tracking-wide relative z-50">
+        <div className="flex flex-wrap items-center justify-between px-10 py-10 gap-4 w-full">
+          <Link href="javascript:void(0)">
+            {/* <Image
+              width={264}
+              height={20}
+              src="dummy/image"
+              alt="logo"
+              className="w-36"
+            /> */}
+          </Link>
 
           <div
             id="collapseMenu"
-            class="max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50"
+            className="max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50"
           >
             <button
               id="toggleClose"
-              class="lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3"
+              className="lg:hidden fixed top-2 right-4 z-[100] rounded-full bg-white p-3"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="w-4 fill-black"
+                className="w-4 fill-black"
                 viewBox="0 0 320.591 320.591"
               >
                 <path
@@ -68,26 +74,26 @@ const Header = () => {
               </svg>
             </button>
 
-            <ul class="lg:flex lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
-              <li class="max-lg:border-b max-lg:py-3">
-                <a
+            <ul className="lg:flex lg:gap-x-10 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
+              <li className="max-lg:border-b max-lg:py-3">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-blue-600 text-[17px] font-bold text-blue-600 block"
+                  className="hover:text-blue-600 text-[17px] font-bold text-blue-600 block"
                 >
                   Home
-                </a>
+                </Link>
               </li>
-              <li class="group max-lg:border-b max-lg:py-3 relative">
-                <a
+              <li className="group max-lg:border-b max-lg:py-3 relative">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold lg:hover:fill-[#007bff] block"
+                  className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold lg:hover:fill-[#007bff] block"
                 >
                   About Us
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16px"
                     height="16px"
-                    class="ml-1 inline-block"
+                    className="ml-1 inline-block"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -96,47 +102,47 @@ const Header = () => {
                       data-original="#000000"
                     />
                   </svg>
-                </a>
-                <ul class="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
-                  <li class="border-b py-2 ">
-                    <a
+                </Link>
+                <ul className="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       About Us
-                    </a>
+                    </Link>
                   </li>
-                  <li class="border-b py-2 ">
-                    <a
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Our Team
-                    </a>
+                    </Link>
                   </li>
-                  <li class="border-b py-2 ">
-                    <a
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Awards & Recognizations
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               {/* Verticals */}
-              <li class="group max-lg:border-b max-lg:py-3 relative">
-                <a
+              <li className="group max-lg:border-b max-lg:py-3 relative">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold lg:hover:fill-[#007bff] block"
+                  className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold lg:hover:fill-[#007bff] block"
                 >
                   Verticals
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16px"
                     height="16px"
-                    class="ml-1 inline-block"
+                    className="ml-1 inline-block"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -145,56 +151,56 @@ const Header = () => {
                       data-original="#000000"
                     />
                   </svg>
-                </a>
-                <ul class="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
-                  <li class="border-b py-2 ">
-                    <a
+                </Link>
+                <ul className="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       MEP Works
-                    </a>
+                    </Link>
                   </li>
-                  <li class="border-b py-2 ">
-                    <a
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Transmisson
-                    </a>
+                    </Link>
                   </li>
-                  <li class="border-b py-2 ">
-                    <a
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Distribution
-                    </a>
+                    </Link>
                   </li>
-                  <li class="border-b py-2 ">
-                    <a
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       O & M
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               {/* New Ventures */}
 
-              <li class="group max-lg:border-b max-lg:py-3 relative">
-                <a
+              <li className="group max-lg:border-b max-lg:py-3 relative">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold lg:hover:fill-[#007bff] block"
+                  className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold lg:hover:fill-[#007bff] block"
                 >
                   New Ventures
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16px"
                     height="16px"
-                    class="ml-1 inline-block"
+                    className="ml-1 inline-block"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -203,66 +209,66 @@ const Header = () => {
                       data-original="#000000"
                     />
                   </svg>
-                </a>
-                <ul class="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
-                  <li class="border-b py-2 ">
-                    <a
-                      href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                </Link>
+                <ul className="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
+                  <li className="border-b py-2 ">
+                    <Link
+                      href="/solar-system-installations"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Solar Systems Installation
-                    </a>
+                    </Link>
                   </li>
-                  <li class="border-b py-2 ">
-                    <a
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       ECVS
-                    </a>
+                    </Link>
                   </li>
-                  <li class="border-b py-2 ">
-                    <a
+                  <li className="border-b py-2 ">
+                    <Link
                       href="javascript:void(0)"
-                      class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Lift & Escalators
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
-              <li class="max-lg:border-b max-lg:py-3">
-                <a
+              <li className="max-lg:border-b max-lg:py-3">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                  className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   CSR
-                </a>
+                </Link>
               </li>
 
-              <li class="max-lg:border-b max-lg:py-3">
-                <a
+              <li className="max-lg:border-b max-lg:py-3">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                  className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   Careers
-                </a>
+                </Link>
               </li>
-              <li class="max-lg:border-b max-lg:py-3">
-                <a
+              <li className="max-lg:border-b max-lg:py-3">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                  className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   Events
-                </a>
+                </Link>
               </li>
-              <li class="max-lg:border-b max-lg:py-3">
-                <a
+              <li className="max-lg:border-b max-lg:py-3">
+                <Link
                   href="javascript:void(0)"
-                  class="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                  className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
