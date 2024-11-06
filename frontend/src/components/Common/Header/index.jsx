@@ -239,7 +239,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  href="javascript:void(0)"
+                  href="/csr"
                   className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   CSR
@@ -248,7 +248,7 @@ const Header = () => {
 
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  href="javascript:void(0)"
+                  href="/carrers"
                   className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   Careers
@@ -256,7 +256,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  href="javascript:void(0)"
+                  href="/events"
                   className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   Events
@@ -264,7 +264,7 @@ const Header = () => {
               </li>
               <li className="max-lg:border-b max-lg:py-3">
                 <Link
-                  href="javascript:void(0)"
+                  href="/contact-us"
                   className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                 >
                   Contact Us
