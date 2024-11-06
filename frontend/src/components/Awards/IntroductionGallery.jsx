@@ -1,10 +1,10 @@
-// components/IntroductionGallery.js
+
 
 import React from "react";
 
 const images = [
   {
-    src: "/assets/banner/image1.jpg", // Replace with actual image path
+    src: "/assets/banner/image1.jpg", 
     title: "Maharashtra State Chief Minister",
     description: "Successful completion of ECBC project in Navi Mumbai.",
   },
@@ -18,7 +18,7 @@ const images = [
     title: "Jharkhand State Recognition",
     description: "Award from the Government of Jharkhand.",
   },
-  // Add more images as needed
+
 ];
 export default function IntroductionGallery() {
     return (

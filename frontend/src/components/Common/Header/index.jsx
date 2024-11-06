@@ -155,7 +155,7 @@ const Header = () => {
                 <ul className="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/mep-works"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       MEP Works
@@ -163,7 +163,7 @@ const Header = () => {
                   </li>
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/transmission"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Transmisson
