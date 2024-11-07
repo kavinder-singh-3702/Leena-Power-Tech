@@ -1,12 +1,13 @@
 import React from "react";
-import HeroSection from "@/components/NewVenutres/solar-system-installation/HeroSection";
-import SolarSystemInfo from "@/components/NewVenutres/solar-system-installation/SolarSystemInfo";
-
+import HeroSection from "@/components/NewVenutres/transmission/HeroSection";
+import TransmissionInfo from "@/components/NewVenutres/transmission/TransmissionInfo";
+import ImageInfo from "@/components/NewVenutres/transmission/ImageInfo";
 export default function page() {
   return (
     <div>
       <HeroSection />
-      <SolarSystemInfo />
+      <TransmissionInfo />
+      <ImageInfo/>
     </div>
   );
 }

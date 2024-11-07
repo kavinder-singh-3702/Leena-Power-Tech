@@ -1,7 +1,7 @@
 
 export default function Home() {
     return (
-      <div className="relative w-full h-screen overflow-hidden mb-12">
+      <div className="relative w-full h-[70vh] overflow-hidden mb-12">
         <div 
           className="absolute top-0 left-0 w-full h-full bg-cover bg-center" 
           style={{ backgroundImage: "url('/assets/banner/image7.jpg')" }}

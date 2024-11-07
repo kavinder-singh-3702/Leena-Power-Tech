@@ -171,7 +171,7 @@ const Header = () => {
                   </li>
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/distribution"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       Distribution
@@ -179,16 +179,24 @@ const Header = () => {
                   </li>
                   <li className="border-b py-2 ">
                     <Link
-                      href="javascript:void(0)"
+                      href="/o-m"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       O & M
                     </Link>
                   </li>
+                  <li className="border-b py-2 ">
+                    <Link
+                      href="/railways-metro"
+                      className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
+                    >
+                      Railways & Metro
+                    </Link>
+                  </li>
                 </ul>
               </li>
 
-              {/* New Ventures */}
+    
 
               <li className="group max-lg:border-b max-lg:py-3 relative">
                 <Link
