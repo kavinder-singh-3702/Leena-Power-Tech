@@ -1,6 +1,6 @@
 
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 const ContributionSection = () => {
   return (
@@ -18,12 +18,7 @@ const ContributionSection = () => {
           adverse conditions and serves the nation reliably.
         </p>
         <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-          With a national focus on renewable energy, our team is exploring new
-          prospects and adapting to advanced technologies. Our company is
-          aligned with PM’s Gati Shakti Plan, a 100-lakh crore initiative
-          to develop holistic infrastructure across the country. We believe in
-          this vision and are committed to contributing as much as possible in
-          our field.
+          With a national focus on renewable energy, our team is exploring new prospects and adapting to advanced technologies. Our company is aligned with PM's Gati Shakti Plan, a 100-lakh crore initiative to develop holistic infrastructure across the country. We believe in this vision and are committed to contributing as much as possible in our field.
         </p>
         <button className="mt-4 px-4 py-2 bg-blue-900 text-white font-semibold rounded-md hover:bg-blue-700 transition">
           Download Company Financial Document

@@ -2,10 +2,13 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-// import apiHelper from "@/helpers/apiHelper";
 
 import Slider from "react-slick";
 import Image from "next/image";
+
+interface ArrowProps {
+  onClick?: () => void;
+}
 
 const data = [
   {
@@ -64,7 +67,7 @@ const HeroSlider = () => {
     </div>
   );
 };
-const CustomNextArrow = (props: any) => {
+const CustomNextArrow = (props: ArrowProps) => {
   const { onClick } = props;
   return (
     <div
@@ -78,7 +81,7 @@ const CustomNextArrow = (props: any) => {
 };
 
 // Custom Previous Arrow component
-const CustomPrevArrow = (props: any) => {
+const CustomPrevArrow = (props: ArrowProps) => {
   const { onClick } = props;
   return (
     <div
