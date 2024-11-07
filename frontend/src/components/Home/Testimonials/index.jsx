@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import { FaQuoteLeft, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Image from 'next/image';
 // Import Slider dynamically with SSR disabled
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -90,7 +90,7 @@ const Testimonials = () => {
               {/* Added horizontal padding here */}
               <div className="p-6 bg-white rounded-lg shadow-lg text-center">
                 <div className="flex justify-center mb-4">
-                  <img
+                  <Image
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-20 h-20 rounded-full object-cover border-2 border-blue-900"

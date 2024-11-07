@@ -1,5 +1,5 @@
 import { UserIcon } from '@heroicons/react/solid';
-
+import Image from 'next/image';
 const directors = [
   {
     name: "Mr. Amit Teckchandani",
@@ -31,7 +31,7 @@ export default function DirectorsSection() {
             key={index}
             className="w-full sm:w-1/2 lg:w-1/4 bg-white shadow-lg rounded-lg overflow-hidden transition-transform transform hover:scale-105"
           >
-            <img
+            <Image
               src={director.imageUrl}
               alt={director.name}
               className="w-full h-60 object-cover"

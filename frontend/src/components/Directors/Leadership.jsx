@@ -1,6 +1,6 @@
-// pages/leadership.js
-import { UserIcon } from '@heroicons/react/solid';
 
+import { UserIcon } from '@heroicons/react/solid';
+import Image from 'next/image';
 export default function Leadership() {
   return (
     <div className="min-h-screen flex flex-col items-center py-10">
@@ -13,7 +13,7 @@ export default function Leadership() {
       <div className="w-full max-w-md bg-white rounded-lg shadow-lg p-8 mt-6">
         <div className="flex flex-col items-center">
           <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
-            <img
+            <Image
               src="/assets/banner/image1.jpg"
               alt="CEO"
               className="object-cover w-full h-full"
