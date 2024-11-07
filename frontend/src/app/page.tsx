@@ -1,4 +1,3 @@
-import Header from "@/components/Common/Header";
 import HeroSlider from "@/components/Home/HeroSlider/HeroSlider";
 import WelcomeSection from "@/components/Home/WelcomeSection";
 import WhyChooseUs from "@/components/Home/WhyChooseUs";

@@ -1,5 +1,4 @@
 // components/Header.js
-import Image from "next/image";
 import Link from "next/link";
 import {
   FaFacebook,
@@ -7,7 +6,6 @@ import {
   FaInstagram,
   FaTwitter,
   FaYoutube,
-  FaChevronDown,
 } from "react-icons/fa";
 
 const Header = () => {
@@ -106,7 +104,7 @@ const Header = () => {
                 <ul className="absolute shadow-lg bg-white space-y-3 lg:top-5 max-lg:top-8 -left-6 min-w-[250px] z-50 max-h-0 overflow-hidden group-hover:opacity-100 group-hover:max-h-[700px] px-6 group-hover:pb-4 group-hover:pt-6 transition-all duration-500">
                   <li className="border-b py-2 ">
                     <Link
-                      href="/about" 
+                      href="/about"
                       className="hover:text-[#007bff] text-gray-600 text-[17px] font-bold block"
                     >
                       About Us
@@ -195,8 +193,6 @@ const Header = () => {
                   </li>
                 </ul>
               </li>
-
-    
 
               <li className="group max-lg:border-b max-lg:py-3 relative">
                 <Link

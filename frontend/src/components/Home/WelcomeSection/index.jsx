@@ -13,7 +13,7 @@ const WelcomeSection = () => {
 
         {/* Description */}
         <p className="text-gray-700 text-[3vh] md:text-xl leading-relaxed mb-10">
-          Partnering in the country's progress in developing electrical
+          Partnering in the country`&apos;`s progress in developing electrical
           distribution infrastructure, Leena Powertech Engineers Pvt Ltd (LPTE)
           is an integrated EPC company specializing in Turnkey Electrical
           Engineering Services.
