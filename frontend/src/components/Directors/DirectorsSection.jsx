@@ -34,6 +34,8 @@ export default function DirectorsSection() {
             <Image
               src={director.imageUrl}
               alt={director.name}
+              width={96} 
+              height={96} 
               className="w-full h-60 object-cover"
             />
             <div className="p-6 text-center">

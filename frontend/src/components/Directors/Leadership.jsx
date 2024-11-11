@@ -16,6 +16,8 @@ export default function Leadership() {
             <Image
               src="/assets/banner/image1.jpg"
               alt="CEO"
+              width={96} 
+              height={96} 
               className="object-cover w-full h-full"
             />
           </div>
