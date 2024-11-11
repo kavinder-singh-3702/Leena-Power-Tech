@@ -24,32 +24,33 @@ export default function Home() {
             className="rounded-lg"
           />
         </div>
+
         <div className="grid grid-cols-2 gap-4 w-full md:w-1/2 text-center md:text-left">
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 space-x-0 md:space-x-2">
             <FaBusinessTime className="text-blue-800 text-xl" />
             <span className="text-sm font-medium text-gray-700">Business Development</span>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 space-x-0 md:space-x-2">
             <FaCalculator className="text-blue-800 text-xl" />
             <span className="text-sm font-medium text-gray-700">Estimation</span>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 space-x-0 md:space-x-2">
             <FaMoneyBill className="text-blue-800 text-xl" />
             <span className="text-sm font-medium text-gray-700">Account & Finance</span>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 space-x-0 md:space-x-2">
             <FaUserTie className="text-blue-800 text-xl" />
             <span className="text-sm font-medium text-gray-700">Human Resource and Admin</span>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 space-x-0 md:space-x-2">
             <FaProjectDiagram className="text-blue-800 text-xl" />
             <span className="text-sm font-medium text-gray-700">Project</span>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 space-x-0 md:space-x-2">
             <FaTasks className="text-blue-800 text-xl" />
             <span className="text-sm font-medium text-gray-700">Project Planning</span>
           </div>
-          <div className="flex items-center justify-center md:justify-start space-x-2">
+          <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 space-x-0 md:space-x-2">
             <FaShoppingCart className="text-blue-800 text-xl" />
             <span className="text-sm font-medium text-gray-700">Procurement</span>
           </div>

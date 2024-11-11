@@ -91,7 +91,7 @@ const Header = () => {
           <ul className="flex flex-col sm:flex-row sm:gap-x-10 p-6 sm:p-0 sm:space-y-0 space-y-4 sm:space-y-0">
             <li className="border-b sm:border-none py-2 sm:py-0">
               <Link
-                href="#"
+                href="/"
                 className="hover:text-blue-600 text-[17px] font-bold text-blue-600 block"
                 onClick={() => setIsMenuOpen(false)}
               >

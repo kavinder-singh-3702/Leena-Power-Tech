@@ -1,3 +1,4 @@
+
 "use client";
 import { useState } from "react";
 
@@ -17,30 +18,30 @@ export default function JobListings() {
   ];
 
   return (
-    <div className="min-h-screen py-10 px-5">
-      <h1 className="text-3xl font-bold text-blue-900 mb-6 text-center">Jobs</h1>
-      <div className="bg-white rounded-md shadow-sm mx-auto px-8 py-6 max-w-6xl">
-        <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mb-8">
+    <div className="min-h-screen py-10 px-4 sm:px-5">
+      <h1 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-6 text-center">Jobs</h1>
+      <div className="bg-white rounded-md shadow-sm mx-auto px-4 sm:px-8 py-6 max-w-6xl">
+        <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
           <input
             type="text"
             placeholder="Search"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full md:w-1/4 p-2 border border-gray-300 rounded-md"
+            className="w-full sm:w-1/4 p-2 border border-gray-300 rounded-md"
           />
-          <select className="w-full md:w-1/4 p-2 border border-gray-300 rounded-md">
+          <select className="w-full sm:w-1/4 p-2 border border-gray-300 rounded-md">
             <option>All Job Category</option>
             <option>Full Time</option>
             <option>Part Time</option>
             <option>Internship</option>
           </select>
-          <select className="w-full md:w-1/4 p-2 border border-gray-300 rounded-md">
+          <select className="w-full sm:w-1/4 p-2 border border-gray-300 rounded-md">
             <option>All Job Type</option>
             <option>Full Time</option>
             <option>Part Time</option>
             <option>Contract</option>
           </select>
-          <select className="w-full md:w-1/4 p-2 border border-gray-300 rounded-md">
+          <select className="w-full sm:w-1/4 p-2 border border-gray-300 rounded-md">
             <option>All Job Location</option>
             <option>CBD Belapur Navi Mumbai</option>
             <option>Kolhapur</option>
@@ -51,10 +52,10 @@ export default function JobListings() {
           </select>
         </div>
         {jobs.map((job, index) => (
-          <div key={index} className="py-3 border-b border-gray-200 flex justify-between items-center space-x-4">
+          <div key={index} className="py-3 border-b border-gray-200 flex flex-col sm:flex-row sm:justify-between items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
             <div className="flex-1">
               <h2 className="text-lg font-semibold text-gray-800">{job.title}</h2>
-              <div className="text-gray-500 flex space-x-2 mt-1">
+              <div className="text-gray-500 flex flex-wrap space-x-2 mt-1">
                 <span className="flex items-center space-x-1">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M3 3h14a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V5a2 2 0 012-2z" />
