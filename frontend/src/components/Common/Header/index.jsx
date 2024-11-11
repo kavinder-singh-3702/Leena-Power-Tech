@@ -12,7 +12,6 @@ import {
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
   const [showVerticalsDropdown, setShowVerticalsDropdown] = useState(false);
   const [showCareersDropdown, setShowCareersDropdown] = useState(false);
   const [showNewVenturesDropdown, setShowNewVenturesDropdown] = useState(false);
@@ -21,7 +20,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   const [showDropdown, setShowDropdown] = useState(false);
-  const toggleAboutDropdown = () => setIsAboutDropdownOpen(!isAboutDropdownOpen);
+
   return (
     <main className="bg-yellow-400 text-white">
       <div className="container mx-auto px-4 flex flex-col sm:flex-row justify-between items-center py-4 space-y-4 sm:space-y-0">
