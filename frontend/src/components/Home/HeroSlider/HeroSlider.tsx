@@ -31,48 +31,45 @@ const data = [
 
 const HeroSlider = () => {
   const settings = {
-    dots: true, // Show navigation dots
-    infinite: true, // Enable infinite scrolling
-    speed: 500, // Transition speed (ms)
-    slidesToShow: 1, // Show one slide at a time
-    slidesToScroll: 1, // Scroll one slide at a time
-    autoplay: true, // Enable auto sliding
-    autoplaySpeed: 4000, // Set auto slide interval to 4000ms (4 seconds)
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 4000,
     nextArrow: <CustomNextArrow />,
     prevArrow: <CustomPrevArrow />,
   };
 
   return (
-    <div className="h-auto ">
+    <div className="h-auto">
       <div className="w-full mx-0">
         <Slider {...settings}>
-          {data.map((item, index) => {
-            return (
-              <div key={index} className="relative w-full h-[82vh] bg-white">
-                {" "}
-                {/* Increased to 80% viewport height */}
-                <div className="w-full h-full relative">
-                  <Image
-                    alt={item.title}
-                    src={item.image}
-                    fill
-                    className="object-cover" // Makes the image cover the container
-                  />
-                </div>
+          {data.map((item, index) => (
+            <div key={index} className="relative w-full h-[82vh] bg-white">
+              <div className="w-full h-full relative">
+                <Image
+                  alt={item.title}
+                  src={item.image}
+                  fill
+                  className="object-cover"
+                />
               </div>
-            );
-          })}
+            </div>
+          ))}
         </Slider>
       </div>
     </div>
   );
 };
+
 const CustomNextArrow = (props: ArrowProps) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute right-0 text-white cursor-pointer bg-yellow-500 p-3 rounded-full"
-      style={{ zIndex: 1, top: "50%" }}
+      className="absolute right-4 text-white cursor-pointer bg-yellow-500 p-3 rounded-full transform -translate-y-1/2"
+      style={{ top: "45%", zIndex: 1 }}
       onClick={onClick}
     >
       <FaArrowRight size={20} />
@@ -80,13 +77,12 @@ const CustomNextArrow = (props: ArrowProps) => {
   );
 };
 
-// Custom Previous Arrow component
 const CustomPrevArrow = (props: ArrowProps) => {
   const { onClick } = props;
   return (
     <div
-      className="absolute left-0 text-white cursor-pointer bg-yellow-500 p-3 rounded-full"
-      style={{ zIndex: 1, top: "50%" }}
+      className="absolute left-4 text-white cursor-pointer bg-yellow-500 p-3 rounded-full transform -translate-y-1/2"
+      style={{ top: "45%", zIndex: 1 }}
       onClick={onClick}
     >
       <FaArrowLeft size={20} />
