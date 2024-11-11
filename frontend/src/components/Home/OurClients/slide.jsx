@@ -24,7 +24,7 @@ const Sponsors = () => {
   return (
     <div className="w-screen flex items-center justify-center">
       <div className="flex flex-col items-center justify-center w-full">
-        <div className="flex overflow-hidden w-[1200px] mask-image">
+        <div className="flex overflow-hidden w-screen mask-image">
           <div className="flex animate-scrollX">
             {row1.map((el, index) => (
               <div
