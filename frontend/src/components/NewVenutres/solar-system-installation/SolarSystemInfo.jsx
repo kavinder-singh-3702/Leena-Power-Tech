@@ -5,17 +5,17 @@ const SolarSystemInfo = () => {
   return (
     <div className="bg-white">
       {/* Text Section */}
-      <section className="px-4 py-10 md:py-16">
-        <div className="max-w-7xl mx-auto text-left text-gray-700">
-          <p className="text-lg md:text-xl leading-relaxed mb-8">
-            Unlike gas and coal, solar energy is renewable, clean and
+      <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-10 md:py-16">
+        <div className="max-w-5xl mx-auto text-left text-gray-700">
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-8">
+            Unlike gas and coal, solar energy is renewable, clean, and
             sustainable. Solar power does not pollute our air or contribute to
-            global warming. For many businesses, being `&quot;`green`&quot;` and
-            making environmentally-friendly decisions is important to their
-            business goals.
+            global warming. For many businesses, being "green" and making
+            environmentally-friendly decisions is important to their business
+            goals.
           </p>
 
-          <h2 className="text-xl font-semibold mb-4">
+          <h2 className="text-lg sm:text-xl font-semibold mb-4">
             Some Advantages of Solar Energy -
           </h2>
           <ul className="list-disc list-inside space-y-2">
@@ -30,26 +30,25 @@ const SolarSystemInfo = () => {
             <li>Technology Development.</li>
           </ul>
 
-          <p className="text-lg md:text-base leading-relaxed mt-8">
+          <p className="text-base sm:text-lg md:text-base leading-relaxed mt-8">
             Compared with the approximately 15 GW of solar capacity deployed in
             2020, annual solar deployment is 30 GW on average in the early 2020s
-            and grows to 60 GW on average from 2025 to 2030. Similarly
-            substantial solar deployment rates continue in the 2030s and beyond.{" "}
+            and grows to 60 GW on average from 2025 to 2030. Similarly,
+            substantial solar deployment rates continue in the 2030s and beyond.
             <span className="font-semibold">
               Photovoltaics (PV) and concentrating solar power
             </span>{" "}
             are likely to continue to grow rapidly. The National Renewable
             Energy Laboratory (NREL) projects solar energy could provide 45% of
             the electricity in the United States by 2050 if the energy system is
-            fully decarbonized and technology costs are projected to continue to
-            be lowered.
+            fully decarbonized and technology costs continue to lower.
           </p>
         </div>
       </section>
 
       {/* Image Gallery Section */}
-      <section className="px-40 py-10 md:py-16 text-center">
-        <h2 className="text-4xl tracking-wider font-bold text-blue-700 mb-6">
+      <section className="px-4 sm:px-8 md:px-16 lg:px-40 py-10 md:py-16 text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl tracking-wider font-bold text-blue-700 mb-6">
           Solar System At Bhoomiputra Bhavan Ulwe
         </h2>
         <div className="border-t-2 border-gray-300 mb-8"></div>

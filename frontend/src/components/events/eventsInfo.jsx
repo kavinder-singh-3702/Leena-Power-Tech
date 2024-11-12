@@ -5,10 +5,10 @@ const SolarSystemInfo = () => {
   return (
     <div className="bg-white">
       {/* Text Section */}
-      <section className="px-4 py-10 md:py-16">
-        <div className="max-w-7xl mx-auto text-left text-gray-700">
-          <p className="text-lg md:text-base leading-relaxed mt-8">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+      <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-10 md:py-16">
+        <div className="max-w-5xl mx-auto text-left text-gray-700">
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed mt-4 md:mt-8">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
             modi, eius corrupti quas blanditiis numquam error, eum omnis
             reiciendis veniam totam quibusdam iusto corporis. Adipisci
             voluptatum sed hic rem error nihil sint odio consequatur tenetur
@@ -16,7 +16,7 @@ const SolarSystemInfo = () => {
             voluptate. Architecto fuga vitae ipsam animi!
           </p>
 
-          <p className="text-lg md:text-base leading-relaxed mt-8">
+          <p className="text-base sm:text-lg md:text-xl leading-relaxed mt-4 md:mt-8">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem
             sint quo autem voluptates doloribus dolores neque. Consequuntur quos
             delectus alias odit consectetur impedit nihil earum, saepe illo
@@ -31,8 +31,8 @@ const SolarSystemInfo = () => {
       </section>
 
       {/* Image Gallery Section */}
-      <section className="px-40 py-10 md:py-16 text-center">
-        <h2 className="text-4xl tracking-wider font-bold text-blue-700 mb-6">
+      <section className="px-4 sm:px-8 md:px-16 lg:px-40 py-10 md:py-16 text-center">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl tracking-wider font-bold text-blue-700 mb-6">
           Leena Power Tech Events
         </h2>
         <div className="border-t-2 border-gray-300 mb-8"></div>
