@@ -248,7 +248,7 @@ const Header = () => {
                   </ul>
                 </ul>
               </li>
-
+{/* 
               <li className="border-b sm:border-none py-2 sm:py-0">
                 <Link
                   href="/csr"
@@ -260,7 +260,7 @@ const Header = () => {
                 >
                   CSR
                 </Link>
-              </li>
+              </li> */}
               <li className="group border-b sm:border-none py-2 sm:py-0 relative">
                 <button
                   className="flex items-center justify-between w-full hover:text-[#007bff] text-gray-600 text-[17px] font-bold sm:w-auto"
