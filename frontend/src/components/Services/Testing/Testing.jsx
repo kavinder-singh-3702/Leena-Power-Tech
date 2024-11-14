@@ -1,12 +1,11 @@
 "use client";
+import Image from 'next/image';
 
 import { FaLightbulb, FaRocket, FaCheckCircle } from 'react-icons/fa';
 import { MdDevices, MdSecurity } from 'react-icons/md';
 import { useState } from 'react';
-
 export default function WebDevelopment() {
   const [faqOpen, setFaqOpen] = useState(null);
-
   const toggleFaq = (index) => {
     setFaqOpen(faqOpen === index ? null : index);
   };
@@ -37,7 +36,7 @@ export default function WebDevelopment() {
             </li>
           ))}
         </ul>
-        <div className="mt-8 text-gray-700">
+        <div className="mt-8 text-gray-700 ">
           <h3 className="font-semibold mb-3 text-gray-800">Opening Hours</h3>
           <p>Mon - Fri: 10:00 AM - 6:00 PM</p>
           <p>Sat - Sun: Closed</p>
@@ -46,7 +45,7 @@ export default function WebDevelopment() {
       </aside>
       <div className="w-full lg:w-3/4 space-y-8">
         <section className="relative bg-white rounded-lg shadow-lg p-6">
-          <img src="/assets/banner/image2.jpg" alt="Web Development Illustration" className="w-full h-40 object-cover mb-4 rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105" />
+        <Image src="/assets/banner/image2.jpg" alt="Web Development Illustration" width={500} height={160} className="w-full h-40 object-cover mb-4 rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105" />
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Web Development</h2>
           <p className="text-gray-600 text-base leading-relaxed">
             Our web development services deliver custom, responsive websites that captivate users. Our solutions are scalable and tailored to fit your business goals, focusing on aesthetics, functionality, and user experience.
@@ -86,7 +85,13 @@ export default function WebDevelopment() {
         </section>
         <section className="flex flex-col lg:flex-row p-6 rounded-lg">
           <div className="w-full lg:w-1/2 flex items-center justify-center p-4">
-            <img src="/assets/banner/image2.jpg" alt="QA & Testing Illustration" className="w-full max-w-md" />
+          <Image
+            src="/assets/banner/image2.jpg" 
+            alt="Web Development Illustration"
+            width={500}
+            height={160}
+            className="w-full h-40 object-cover mb-4 rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105"
+          />
           </div>
           <div className="w-full lg:w-1/2 p-4">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Choose Our QA & Testing</h2>
