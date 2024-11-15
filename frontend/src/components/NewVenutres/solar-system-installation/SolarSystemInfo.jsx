@@ -10,7 +10,7 @@ const SolarSystemInfo = () => {
           <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-8">
             Unlike gas and coal, solar energy is renewable, clean, and
             sustainable. Solar power does not pollute our air or contribute to
-            global warming. For many businesses, being "green" and making
+            global warming. For many businesses, being &quot;green&quot; and making
             environmentally-friendly decisions is important to their business
             goals.
           </p>
